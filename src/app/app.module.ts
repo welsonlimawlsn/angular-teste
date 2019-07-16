@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DepositoComponent } from './pages/deposito/deposito.component';
+import { SaqueComponent } from './pages/saque/saque.component';
+import { TransferenciaComponent } from './pages/transferencia/transferencia.component';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DepositoComponent,
+    SaqueComponent,
+    TransferenciaComponent,
+    MenuLateralComponent
   ],
   imports: [
     BrowserModule,
